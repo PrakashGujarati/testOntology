@@ -1,0 +1,162 @@
+{
+  "@context" : {
+    "Probe-Inconsistent-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Probe-Inconsistent-Topping"
+    },
+    "has-Calorific-Content-Value" : {
+      "@id" : "http://www.pizzaowl.org/has-Calorific-Content-Value",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "Named-Pizza" : {
+      "@id" : "http://www.pizzaowl.org/Named-Pizza"
+    },
+    "Pepper-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Pepper-Topping"
+    },
+    "Spicy-Beef-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Spicy-Beef-Topping"
+    },
+    "Country" : {
+      "@id" : "http://www.pizzaowl.org/Country"
+    },
+    "Pepperoni-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Pepperoni-Topping"
+    },
+    "Interesting-Pizza" : {
+      "@id" : "http://www.pizzaowl.org/Interesting-Pizza"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "Vegetarian-Pizza" : {
+      "@id" : "http://www.pizzaowl.org/Vegetarian-Pizza"
+    },
+    "is-Base-Of" : {
+      "@id" : "http://www.pizzaowl.org/is-Base-Of",
+      "@type" : "@id"
+    },
+    "Tomato-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Tomato-Topping"
+    },
+    "Non-Vegetarian-Pizza" : {
+      "@id" : "http://www.pizzaowl.org/Non-Vegetarian-Pizza"
+    },
+    "Red-Pepper-opping" : {
+      "@id" : "http://www.pizzaowl.org/Red-Pepper-opping"
+    },
+    "Pizza-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Pizza-Topping"
+    },
+    "American-Pizza" : {
+      "@id" : "http://www.pizzaowl.org/American-Pizza"
+    },
+    "Cheesy-Pizza" : {
+      "@id" : "http://www.pizzaowl.org/Cheesy-Pizza"
+    },
+    "Pizza" : {
+      "@id" : "http://www.pizzaowl.org/Pizza"
+    },
+    "American-Hot-Pizza" : {
+      "@id" : "http://www.pizzaowl.org/American-Hot-Pizza"
+    },
+    "has-Base" : {
+      "@id" : "http://www.pizzaowl.org/has-Base",
+      "@type" : "@id"
+    },
+    "Margherita-Pizza" : {
+      "@id" : "http://www.pizzaowl.org/Margherita-Pizza"
+    },
+    "Prawn-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Prawn-Topping"
+    },
+    "Parmezan-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Parmezan-Topping"
+    },
+    "Cheese-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Cheese-Topping"
+    },
+    "Unclosed-Pizza" : {
+      "@id" : "http://www.pizzaowl.org/Unclosed-Pizza"
+    },
+    "Caper-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Caper-Topping"
+    },
+    "has-Ingredient" : {
+      "@id" : "http://www.pizzaowl.org/has-Ingredient",
+      "@type" : "@id"
+    },
+    "Green-Pepper-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Green-Pepper-Topping"
+    },
+    "Ham-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Ham-Topping"
+    },
+    "Vegetable-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Vegetable-Topping"
+    },
+    "Soho-Pizza" : {
+      "@id" : "http://www.pizzaowl.org/Soho-Pizza"
+    },
+    "Anchovy-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Anchovy-Topping"
+    },
+    "Salami-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Salami-Topping"
+    },
+    "Deep-Pan-Base" : {
+      "@id" : "http://www.pizzaowl.org/Deep-Pan-Base"
+    },
+    "Pizza-Base" : {
+      "@id" : "http://www.pizzaowl.org/Pizza-Base"
+    },
+    "Thin-And-Crispy-Base" : {
+      "@id" : "http://www.pizzaowl.org/Thin-And-Crispy-Base"
+    },
+    "Mozzarella-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Mozzarella-Topping"
+    },
+    "Onion-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Onion-Topping"
+    },
+    "Meat-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Meat-Topping"
+    },
+    "Olive-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Olive-Topping"
+    },
+    "has-Topping" : {
+      "@id" : "http://www.pizzaowl.org/has-Topping",
+      "@type" : "@id"
+    },
+    "Tuna-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Tuna-Topping"
+    },
+    "Mushroom-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Mushroom-Topping"
+    },
+    "Seafood-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Seafood-Topping"
+    },
+    "is-Ingredient-Of" : {
+      "@id" : "http://www.pizzaowl.org/is-Ingredient-Of",
+      "@type" : "@id"
+    },
+    "High-Calorie-Pizza" : {
+      "@id" : "http://www.pizzaowl.org/High-Calorie-Pizza"
+    },
+    "has-Country-Of-Origin" : {
+      "@id" : "http://www.pizzaowl.org/has-Country-Of-Origin",
+      "@type" : "@id"
+    },
+    "Four-Cheese-Pizza" : {
+      "@id" : "http://www.pizzaowl.org/Four-Cheese-Pizza"
+    },
+    "is-Topping-Of" : {
+      "@id" : "http://www.pizzaowl.org/is-Topping-Of",
+      "@type" : "@id"
+    },
+    "Jalapeno-Pepper-Topping" : {
+      "@id" : "http://www.pizzaowl.org/Jalapeno-Pepper-Topping"
+    }
+  }
+}

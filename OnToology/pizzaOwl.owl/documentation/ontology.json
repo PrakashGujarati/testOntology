@@ -1,0 +1,832 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizzaowl.org/Jalapeno-Pepper-Topping"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizzaowl.org/Cheese-Topping"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizzaowl.org/America"
+    }, {
+      "@id" : "http://www.pizzaowl.org/England"
+    }, {
+      "@id" : "http://www.pizzaowl.org/France"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Germany"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Italy"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.pizzaowl.org/Cheese-Topping"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "4"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Calorific-Content-Value"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid20"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizzaowl.org/Mozzarella-Topping"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid22"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "400"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "3"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.pizzaowl.org/Pizza-Topping"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizzaowl.org/Mozzarella-Topping"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizzaowl.org/Tomato-Topping"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid27"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizzaowl.org/Mozzarella-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Tomato-Topping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizzaowl.org/Pepperoni-Topping"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.pizzaowl.org/Italy"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Country-Of-Origin"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizzaowl.org/Pizza"
+    }, {
+      "@id" : "_:genid33"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Vegetarian-Pizza"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Base"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizzaowl.org/Pizza-Base"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Calorific-Content-Value"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizzaowl.org/Mozzarella-Topping"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizzaowl.org/Olive-Topping"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizzaowl.org/Parmezan-Topping"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizzaowl.org/Tomato-Topping"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizzaowl.org/Tomato-Topping"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid42"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizzaowl.org/Mozzarella-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Olive-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Parmezan-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Tomato-Topping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizzaowl.org/Mozzarella-Topping"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizzaowl.org/Pizza"
+    }, {
+      "@id" : "_:genid50"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizzaowl.org/Mozzarella-Topping"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid51"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizzaowl.org/Cheese-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Vegetable-Topping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizzaowl.org/American-Hot-Pizza"
+    }, {
+      "@id" : "http://www.pizzaowl.org/American-Pizza"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Margherita-Pizza"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Soho-Pizza"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizzaowl.org/Pepperoni-Topping"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizzaowl.org/Anchovy-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Prawn-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Tuna-Topping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizzaowl.org/Caper-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Mushroom-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Olive-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Onion-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Pepper-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Tomato-Topping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Topping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.pizzaowl.org/Tomato-Topping"
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizzaowl.org/Cheese-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Meat-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Seafood-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Vegetable-Topping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid76",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizzaowl.org/Green-Pepper-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Jalapeno-Pepper-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Red-Pepper-opping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizzaowl.org/Pizza"
+    }, {
+      "@id" : "_:genid10"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizzaowl.org/Ham-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Pepperoni-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Salami-Topping"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Spicy-Beef-Topping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid85",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.pizzaowl.org/Pizza"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Pizza-Base"
+    }, {
+      "@id" : "http://www.pizzaowl.org/Pizza-Topping"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.pizzaowl.org/America",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizzaowl.org/Country" ]
+}, {
+  "@id" : "http://www.pizzaowl.org/American-Hot-Pizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Named-Pizza"
+  }, {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/American-Pizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Named-Pizza"
+  }, {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Anchovy-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Seafood-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Caper-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Vegetable-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Cheese-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Pizza-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Cheesy-Pizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Deep-Pan-Base",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Pizza-Base"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.pizzaowl.org/Thin-And-Crispy-Base"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/England",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizzaowl.org/Country" ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Four-Cheese-Pizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Pizza"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/France",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizzaowl.org/Country" ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Germany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizzaowl.org/Country" ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Green-Pepper-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Pepper-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Ham-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Meat-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/High-Calorie-Pizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Pizza"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid19"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Interesting-Pizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Pizza"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Italy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizzaowl.org/Country" ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Jalapeno-Pepper-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Pepper-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Margherita-Pizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Named-Pizza"
+  }, {
+    "@id" : "_:genid24"
+  }, {
+    "@id" : "_:genid25"
+  }, {
+    "@id" : "_:genid26"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Meat-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Pizza-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Mozzarella-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Cheese-Topping"
+  }, {
+    "@id" : "_:genid30"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.pizzaowl.org/Parmezan-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Mushroom-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Vegetable-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Named-Pizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Pizza"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Non-Vegetarian-Pizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Pizza"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid31"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Olive-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Vegetable-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Onion-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Vegetable-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Parmezan-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Cheese-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Pepper-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Vegetable-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Pepperoni-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Meat-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Pizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid35"
+  }, {
+    "@id" : "_:genid36"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Pizza-Base",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Pizza-Cheese",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizzaowl.org/Pizza" ],
+  "http://www.pizzaowl.org/has-Calorific-Content-Value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "400"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Pizza-Chicken",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizzaowl.org/Pizza" ],
+  "http://www.pizzaowl.org/has-Calorific-Content-Value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "350"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Pizza-Margherita",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizzaowl.org/Pizza" ],
+  "http://www.pizzaowl.org/has-Calorific-Content-Value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "237"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Pizza-Quattro-Formaggio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.pizzaowl.org/Pizza" ],
+  "http://www.pizzaowl.org/has-Calorific-Content-Value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "732"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Pizza-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Prawn-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Seafood-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Probe-Inconsistent-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Cheese-Topping"
+  }, {
+    "@id" : "http://www.pizzaowl.org/Vegetable-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Red-Pepper-opping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Pepper-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Salami-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Meat-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Seafood-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Pizza-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Soho-Pizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Named-Pizza"
+  }, {
+    "@id" : "_:genid37"
+  }, {
+    "@id" : "_:genid38"
+  }, {
+    "@id" : "_:genid39"
+  }, {
+    "@id" : "_:genid40"
+  }, {
+    "@id" : "_:genid41"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Spicy-Beef-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Meat-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Thin-And-Crispy-Base",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Pizza-Base"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Tomato-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Vegetable-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Tuna-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Seafood-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Unclosed-Pizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Named-Pizza"
+  }, {
+    "@id" : "_:genid47"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Vegetable-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.pizzaowl.org/Pizza-Topping"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/Vegetarian-Pizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid48"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/has-Base",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.pizzaowl.org/Pizza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.pizzaowl.org/Pizza-Base"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Ingredient"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.pizzaowl.org/is-Base-Of"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/has-Calorific-Content-Value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.pizzaowl.org/Pizza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/has-Country-Of-Origin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.pizzaowl.org/Country"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/has-Ingredient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.pizzaowl.org/has-Topping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.pizzaowl.org/Pizza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.pizzaowl.org/Pizza-Topping"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.pizzaowl.org/has-Ingredient"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.pizzaowl.org/is-Topping-Of"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/is-Base-Of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.pizzaowl.org/is-Ingredient-Of"
+  } ]
+}, {
+  "@id" : "http://www.pizzaowl.org/is-Ingredient-Of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ]
+}, {
+  "@id" : "http://www.pizzaowl.org/is-Topping-Of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.pizzaowl.org/is-Ingredient-Of"
+  } ]
+} ]
